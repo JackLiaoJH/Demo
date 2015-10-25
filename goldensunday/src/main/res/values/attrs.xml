@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <attr name="normalText" format="string" />
+    <attr name="normalTextColor" format="color" />
+    <attr name="normalTextSize" format="dimension" />
+
+    <declare-styleable name="GoldenSunday">
+        <attr name="normalText" />
+        <attr name="normalTextColor" />
+        <attr name="normalTextSize" />
+    </declare-styleable>
+
+</resources>  

@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="42dp" >
+
+    <TextView
+        android:id="@+id/tv_traffic_golden_sunday_normal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:paddingLeft="10dp"
+        android:text="@string/traffic_golden_sunday_normal_text"
+        android:textSize="14sp"
+        android:visibility="visible"/>
+
+    <RelativeLayout
+        android:id="@+id/rl_traffic_golden_sunday_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_toLeftOf="@+id/iv_traffic_golden_sunday_cancel"
+        android:layout_toRightOf="@+id/tv_traffic_golden_sunday_normal"
+        android:visibility="visible">
+
+        <TextView
+            android:id="@+id/tv_traffic_golden_sunday_hour1"
+            style="@style/traffic_golden_sunday_time_text_style"
+            android:text="1"
+            />
+
+        <TextView
+            android:id="@+id/tv_traffic_golden_sunday_hour2"
+            style="@style/traffic_golden_sunday_time_text_style"
+            android:layout_marginLeft="5dp"
+            android:layout_toRightOf="@+id/tv_traffic_golden_sunday_hour1"
+            android:text="2"
+            />
+
+        <TextView
+            android:id="@+id/tv_traffic_golden_sunday_hour"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp"
+            android:layout_toRightOf="@+id/tv_traffic_golden_sunday_hour2"
+            android:text="@string/traffic_golden_sunday_normal_hour"
+            android:textSize="14sp"/>
+
+        <!--minute-->
+        <TextView
+            android:id="@+id/tv_traffic_golden_sunday_minute1"
+            style="@style/traffic_golden_sunday_time_text_style"
+            android:layout_marginLeft="5dp"
+            android:layout_toRightOf="@+id/tv_traffic_golden_sunday_hour"
+            />
+
+        <TextView
+            android:id="@+id/tv_traffic_golden_sunday_minute2"
+            style="@style/traffic_golden_sunday_time_text_style"
+            android:layout_marginLeft="5dp"
+            android:layout_toRightOf="@+id/tv_traffic_golden_sunday_minute1"
+
+            />
+
+        <TextView
+            android:id="@+id/tv_traffic_golden_sunday_minute"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp"
+            android:layout_toRightOf="@+id/tv_traffic_golden_sunday_minute2"
+            android:text="@string/traffic_golden_sunday_normal_minute"
+            android:textSize="14sp"/>
+
+        <!--second-->
+        <TextView
+            android:id="@+id/tv_traffic_golden_sunday_second1"
+            style="@style/traffic_golden_sunday_time_text_style"
+            android:layout_marginLeft="5dp"
+            android:layout_toRightOf="@+id/tv_traffic_golden_sunday_minute"
+            />
+
+        <TextView
+            android:id="@+id/tv_traffic_golden_sunday_second2"
+            style="@style/traffic_golden_sunday_time_text_style"
+            android:layout_marginLeft="5dp"
+            android:layout_toRightOf="@+id/tv_traffic_golden_sunday_second1"
+            />
+
+        <TextView
+            android:id="@+id/tv_traffic_golden_sunday_second"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp"
+            android:layout_toRightOf="@+id/tv_traffic_golden_sunday_second2"
+            android:text="@string/traffic_golden_sunday_normal_second"
+            android:textSize="14sp"/>
+    </RelativeLayout>
+
+    <!--day -->
+    <RelativeLayout
+        android:id="@+id/rl_traffic_golden_sunday_day"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_toLeftOf="@+id/iv_traffic_golden_sunday_cancel"
+        android:layout_toRightOf="@+id/tv_traffic_golden_sunday_normal"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/tv_traffic_golden_sunday_day"
+            style="@style/traffic_golden_sunday_time_text_style"
+            />
+
+        <TextView
+            android:id="@+id/tv_traffic_golden_sunday_day_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp"
+            android:layout_toRightOf="@+id/tv_traffic_golden_sunday_day"
+            android:text="@string/traffic_golden_sunday_normal_day"
+            android:textSize="14sp"/>
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/iv_traffic_golden_sunday_cancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="5dp"
+        android:src="@mipmap/delete_selector"/>
+
+</RelativeLayout>

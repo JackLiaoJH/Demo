@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    tools:context=".MainActivity">
+
+    <com.liaojh.drawviewdemo.DrawView
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <com.liaojh.drawviewdemo.widget.LabelView
+        xmlns:lv="http://schemas.android.com/apk/res-auto"
+        lv:text="测试你啊"
+        lv:textColor="#ff0000"
+        lv:textSize="15sp"
+        android:layout_marginBottom="10dp"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <com.liaojh.drawviewdemo.widget.SpringProgressView
+        android:id="@+id/view"
+        android:layout_marginBottom="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <com.liaojh.drawviewdemo.widget.MyTextView
+        android:layout_marginBottom="10dp"
+        android:text="测试"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <com.liaojh.drawviewdemo.widget.ColorPickerView
+        android:layout_marginBottom="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+
+</LinearLayout>

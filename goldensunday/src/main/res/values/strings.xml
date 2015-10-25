@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">GoldenSunday</string>
+
+
+    <string name="traffic_golden_sunday_normal_text">Golden Sunday comming soon</string>
+    <string name="traffic_golden_sunday_time">%01d</string>
+    <string name="traffic_golden_sunday_normal_hour">H</string>
+    <string name="traffic_golden_sunday_normal_minute">M</string>
+    <string name="traffic_golden_sunday_normal_second">S</string>
+    <string name="traffic_golden_sunday_normal_day">day</string>
+    <string name="traffic_golden_sunday_normal_days">days</string>
+</resources>
