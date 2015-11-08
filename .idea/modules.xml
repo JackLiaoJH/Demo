@@ -4,8 +4,11 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Demo.iml" filepath="$PROJECT_DIR$/Demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/baserecycleviewdemo/baserecycleviewdemo.iml" filepath="$PROJECT_DIR$/baserecycleviewdemo/baserecycleviewdemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/drawdemo/drawdemo.iml" filepath="$PROJECT_DIR$/drawdemo/drawdemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/drawviewdemo/drawviewdemo.iml" filepath="$PROJECT_DIR$/drawviewdemo/drawviewdemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/goldensunday/goldensunday.iml" filepath="$PROJECT_DIR$/goldensunday/goldensunday.iml" />
+      <module fileurl="file://$PROJECT_DIR$/scrolldemo/scrolldemo.iml" filepath="$PROJECT_DIR$/scrolldemo/scrolldemo.iml" />
     </modules>
   </component>
 </project>
