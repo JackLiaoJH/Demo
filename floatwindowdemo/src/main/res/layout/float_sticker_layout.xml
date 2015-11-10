@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+  >
+
+    <LinearLayout
+        android:layout_marginTop="30dp"
+        android:id="@+id/big_window_layout"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:background="#88000000"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/start"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="5dip"
+            android:text="打开程序" />
+
+        <Button
+            android:id="@+id/close"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="关闭悬浮窗" />
+
+
+    </LinearLayout>
+    <ImageView
+        android:id="@+id/iv_close_float_sticker"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+       android:src="@mipmap/ic_launcher" />
+
+</FrameLayout>
