@@ -1,0 +1,100 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="51dp"
+    android:orientation="horizontal">
+
+
+    <HorizontalScrollView
+        android:id="@+id/hsv"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:scrollbars="none">
+
+
+        <RelativeLayout
+            android:id="@+id/ll_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <View
+                android:id="@+id/tab_line"
+                android:layout_width="50dp"
+                android:layout_height="1dp"
+                android:layout_alignParentBottom="true"
+                android:layout_marginLeft="20dp"
+                android:background="#ff0000" />
+
+           <!-- <ImageView
+                android:id="@+id/iv_history"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="20dp"
+                android:src="@mipmap/ic_launcher" />
+
+
+            <ImageView
+                android:id="@+id/iv_download"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="15dp"
+                android:layout_toRightOf="@+id/iv_history"
+                android:src="@mipmap/app_logo" />
+
+            <ImageView
+                android:id="@+id/iv_top"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="15dp"
+                android:layout_toRightOf="@+id/iv_download"
+                android:src="@mipmap/spliding_close" />
+
+            <ImageView
+                android:id="@+id/iv_new"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="15dp"
+                android:layout_toRightOf="@+id/iv_top"
+                android:src="@mipmap/spliding_open" />-->
+
+            <!--   <ImageView
+                   android:id="@+id/iv_recommend1"
+                   android:layout_width="50dp"
+                   android:layout_height="50dp"
+                   android:layout_marginLeft="15dp"
+                   android:layout_toRightOf="@+id/iv_new"
+                   android:src="@mipmap/tab_icon_1" />
+
+               <ImageView
+                   android:id="@+id/iv_recommend2"
+                   android:layout_width="50dp"
+                   android:layout_height="50dp"
+                   android:layout_marginLeft="15dp"
+                   android:layout_toRightOf="@+id/iv_recommend1"
+                   android:src="@mipmap/tab_icon_2" />
+
+               <ImageView
+                   android:id="@+id/iv_recommend3"
+                   android:layout_width="50dp"
+                   android:layout_height="50dp"
+                   android:layout_marginLeft="15dp"
+                   android:layout_toRightOf="@+id/iv_recommend2"
+                   android:src="@mipmap/tab_icon_2" />
+
+               <ImageView
+                   android:id="@+id/iv_recommend4"
+                   android:layout_width="50dp"
+                   android:layout_height="50dp"
+                   android:layout_marginLeft="15dp"
+                   android:layout_toRightOf="@+id/iv_recommend3"
+                   android:src="@mipmap/tab_icon_1" />-->
+        </RelativeLayout>
+    </HorizontalScrollView>
+
+    <View
+        android:layout_width="100dp"
+        android:layout_height="51dp"
+        android:layout_alignParentRight="true"
+        android:background="#88000000" />
+</LinearLayout>
