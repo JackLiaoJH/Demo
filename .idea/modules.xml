@@ -6,10 +6,12 @@
       <module fileurl="file://$PROJECT_DIR$/animationdemo/animationdemo.iml" filepath="$PROJECT_DIR$/animationdemo/animationdemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/baserecycleviewdemo/baserecycleviewdemo.iml" filepath="$PROJECT_DIR$/baserecycleviewdemo/baserecycleviewdemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bunderdeo/bunderdeo.iml" filepath="$PROJECT_DIR$/bunderdeo/bunderdeo.iml" />
       <module fileurl="file://$PROJECT_DIR$/drawdemo/drawdemo.iml" filepath="$PROJECT_DIR$/drawdemo/drawdemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/drawviewdemo/drawviewdemo.iml" filepath="$PROJECT_DIR$/drawviewdemo/drawviewdemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/floatwindowdemo/floatwindowdemo.iml" filepath="$PROJECT_DIR$/floatwindowdemo/floatwindowdemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/goldensunday/goldensunday.iml" filepath="$PROJECT_DIR$/goldensunday/goldensunday.iml" />
+      <module fileurl="file://$PROJECT_DIR$/loadingdemo/loadingdemo.iml" filepath="$PROJECT_DIR$/loadingdemo/loadingdemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/scrolldemo/scrolldemo.iml" filepath="$PROJECT_DIR$/scrolldemo/scrolldemo.iml" />
     </modules>
   </component>

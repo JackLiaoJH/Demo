@@ -13,10 +13,27 @@
             <option value="$PROJECT_DIR$/animationdemo" />
             <option value="$PROJECT_DIR$/app" />
             <option value="$PROJECT_DIR$/baserecycleviewdemo" />
+            <option value="$PROJECT_DIR$/bunderdeo" />
             <option value="$PROJECT_DIR$/drawdemo" />
             <option value="$PROJECT_DIR$/drawviewdemo" />
             <option value="$PROJECT_DIR$/floatwindowdemo" />
             <option value="$PROJECT_DIR$/goldensunday" />
+            <option value="$PROJECT_DIR$/loadingdemo" />
+            <option value="$PROJECT_DIR$/scrolldemo" />
+          </set>
+        </option>
+        <option name="myModules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/animationdemo" />
+            <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/baserecycleviewdemo" />
+            <option value="$PROJECT_DIR$/bunderdeo" />
+            <option value="$PROJECT_DIR$/drawdemo" />
+            <option value="$PROJECT_DIR$/drawviewdemo" />
+            <option value="$PROJECT_DIR$/floatwindowdemo" />
+            <option value="$PROJECT_DIR$/goldensunday" />
+            <option value="$PROJECT_DIR$/loadingdemo" />
             <option value="$PROJECT_DIR$/scrolldemo" />
           </set>
         </option>

@@ -1,1 +1,1 @@
-include ':app', ':goldensunday', ':drawviewdemo', ':drawdemo', ':scrolldemo', ':baserecycleviewdemo', ':floatwindowdemo', ':animationdemo'
+include ':app', ':goldensunday', ':drawviewdemo', ':drawdemo', ':scrolldemo', ':baserecycleviewdemo', ':floatwindowdemo', ':animationdemo', ':bunderdeo', ':loadingdemo'
