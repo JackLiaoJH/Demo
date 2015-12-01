@@ -12,6 +12,7 @@
       <module fileurl="file://$PROJECT_DIR$/floatwindowdemo/floatwindowdemo.iml" filepath="$PROJECT_DIR$/floatwindowdemo/floatwindowdemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/goldensunday/goldensunday.iml" filepath="$PROJECT_DIR$/goldensunday/goldensunday.iml" />
       <module fileurl="file://$PROJECT_DIR$/loadingdemo/loadingdemo.iml" filepath="$PROJECT_DIR$/loadingdemo/loadingdemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/recyclerviewdemo/recyclerviewdemo.iml" filepath="$PROJECT_DIR$/recyclerviewdemo/recyclerviewdemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/scrolldemo/scrolldemo.iml" filepath="$PROJECT_DIR$/scrolldemo/scrolldemo.iml" />
     </modules>
   </component>

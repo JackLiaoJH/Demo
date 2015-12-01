@@ -61,6 +61,7 @@ public class FloatWindowService extends Service {
 					@Override
 					public void run() {
 						ShareFloatWindowManager.createFloatBallView(getApplicationContext());
+
 					}
 				});
 			}

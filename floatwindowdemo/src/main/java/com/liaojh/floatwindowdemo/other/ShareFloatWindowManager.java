@@ -1,18 +1,10 @@
 package com.liaojh.floatwindowdemo.other;
 
-import java.io.BufferedReader;
-import java.io.FileReader;
-import java.io.IOException;
-
-import android.app.ActivityManager;
 import android.content.Context;
 import android.graphics.PixelFormat;
 import android.view.Gravity;
 import android.view.WindowManager;
 import android.view.WindowManager.LayoutParams;
-import android.widget.TextView;
-
-import com.liaojh.floatwindowdemo.R;
 
 public class ShareFloatWindowManager
 {
@@ -75,6 +67,7 @@ public class ShareFloatWindowManager
             mFloatBallView.setParams(mFloatBallParams);
             windowManager.addView(mFloatBallView, mFloatBallParams);
         }
+
     }
 
     /**

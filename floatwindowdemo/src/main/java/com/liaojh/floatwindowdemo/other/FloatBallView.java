@@ -7,6 +7,7 @@ import android.view.LayoutInflater;
 import android.view.MotionEvent;
 import android.view.View;
 import android.view.WindowManager;
+import android.view.inputmethod.InputMethodManager;
 import android.widget.LinearLayout;
 
 import com.liaojh.floatwindowdemo.R;
@@ -58,10 +59,12 @@ public class FloatBallView extends LinearLayout
     private float yInView;
 
     private long mDownTime, mUpTime;
+    private Context mContextt;
 
     public FloatBallView(Context context)
     {
         super(context);
+        this.mContextt = context;
         windowManager = (WindowManager) context.getSystemService(Context.WINDOW_SERVICE);
         LayoutInflater.from(context).inflate(R.layout.float_ball_layout, this);
         View view = findViewById(R.id.iv_float_ball);
@@ -167,6 +170,11 @@ public class FloatBallView extends LinearLayout
     {
         ShareFloatWindowManager.createFloatStickerWindow(getContext());
         ShareFloatWindowManager.removeFloatBallWindow(getContext());
+
+//        InputMethodManager imm = (InputMethodManager) mContextt.getSystemService(Context.INPUT_METHOD_SERVICE);
+//        imm.toggleSoftInput(0, InputMethodManager.HIDE_NOT_ALWAYS);
+
+
     }
 
     /**

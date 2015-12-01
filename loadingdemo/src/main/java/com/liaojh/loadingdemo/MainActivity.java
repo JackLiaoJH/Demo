@@ -29,6 +29,9 @@ public class MainActivity extends AppCompatActivity {
         progressRoundView.setMaxProgress(15);
         mHandler.sendEmptyMessage(1);
 
+
+        new ProgressRoundView(this);
+
     }
 
     private int progress = 0;

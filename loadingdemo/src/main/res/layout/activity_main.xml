@@ -10,6 +10,7 @@
 
 
     <com.liaojh.loadingdemo.widget.ProgressRoundView
+        android:visibility="gone"
         android:id="@+id/prv"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />

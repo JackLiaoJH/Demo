@@ -6,7 +6,10 @@ import android.graphics.Color;
 import android.graphics.Paint;
 import android.graphics.Rect;
 import android.graphics.RectF;
+import android.os.Handler;
+import android.os.Message;
 import android.util.AttributeSet;
+import android.util.Log;
 import android.view.View;
 
 /**
@@ -34,6 +37,13 @@ public class ProgressRoundView extends View {
 
     private String mProgressText = "0%";
     private int mMaxProgress = 360;
+    private Handler mHandler = new Handler() {
+        @Override
+        public void handleMessage(Message msg) {
+            super.handleMessage(msg);
+
+        }
+    };
 
     public ProgressRoundView(Context context) {
         this(context, null);
@@ -46,6 +56,10 @@ public class ProgressRoundView extends View {
     public ProgressRoundView(Context context, AttributeSet attrs, int defStyleAttr) {
         super(context, attrs, defStyleAttr);
         init();
+//        for (int i =0 ; i < 100000; i ++) {
+//            System.out.println("aaa" + i);
+//        }
+        Log.i("logf","ProgressRoundView  " + mHandler);
     }
 
     private void init() {
