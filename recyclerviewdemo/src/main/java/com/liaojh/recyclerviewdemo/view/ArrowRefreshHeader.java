@@ -196,7 +196,7 @@ public class ArrowRefreshHeader extends LinearLayout implements BaseRefreshHeade
     public void onMove(float delta) {
         if (getVisiableHeight() > 0 || delta > 0) {
             setVisiableHeight((int) delta + getVisiableHeight());
-            if (mState <= STATE_RELEASE_TO_REFRESH) { // 未处于刷新状态，更新箭头
+            if (mState <= STATE_RELEASE_TO_REFRESH) {
                 if (getVisiableHeight() > mMeasuredHeight) {
                     setState(STATE_RELEASE_TO_REFRESH);
                 } else {

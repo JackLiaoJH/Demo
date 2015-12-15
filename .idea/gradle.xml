@@ -21,6 +21,7 @@
             <option value="$PROJECT_DIR$/loadingdemo" />
             <option value="$PROJECT_DIR$/recyclerviewdemo" />
             <option value="$PROJECT_DIR$/scrolldemo" />
+            <option value="$PROJECT_DIR$/viewdemo" />
           </set>
         </option>
         <option name="myModules">
@@ -37,6 +38,7 @@
             <option value="$PROJECT_DIR$/loadingdemo" />
             <option value="$PROJECT_DIR$/recyclerviewdemo" />
             <option value="$PROJECT_DIR$/scrolldemo" />
+            <option value="$PROJECT_DIR$/viewdemo" />
           </set>
         </option>
       </GradleProjectSettings>
