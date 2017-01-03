@@ -2,23 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Demo.iml" filepath="$PROJECT_DIR$/Demo.iml" />
-      <module fileurl="file://$PROJECT_DIR$/aidldemoclient/aidldemoclient.iml" filepath="$PROJECT_DIR$/aidldemoclient/aidldemoclient.iml" />
-      <module fileurl="file://$PROJECT_DIR$/aidldemoservice/aidldemoservice.iml" filepath="$PROJECT_DIR$/aidldemoservice/aidldemoservice.iml" />
-      <module fileurl="file://$PROJECT_DIR$/animationdemo/animationdemo.iml" filepath="$PROJECT_DIR$/animationdemo/animationdemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Demo1.iml" filepath="$PROJECT_DIR$/Demo1.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/baserecycleviewdemo/baserecycleviewdemo.iml" filepath="$PROJECT_DIR$/baserecycleviewdemo/baserecycleviewdemo.iml" />
-      <module fileurl="file://$PROJECT_DIR$/bunderdeo/bunderdeo.iml" filepath="$PROJECT_DIR$/bunderdeo/bunderdeo.iml" />
-      <module fileurl="file://$PROJECT_DIR$/drawabledemo/drawabledemo.iml" filepath="$PROJECT_DIR$/drawabledemo/drawabledemo.iml" />
-      <module fileurl="file://$PROJECT_DIR$/drawdemo/drawdemo.iml" filepath="$PROJECT_DIR$/drawdemo/drawdemo.iml" />
-      <module fileurl="file://$PROJECT_DIR$/drawviewdemo/drawviewdemo.iml" filepath="$PROJECT_DIR$/drawviewdemo/drawviewdemo.iml" />
-      <module fileurl="file://$PROJECT_DIR$/floatwindowdemo/floatwindowdemo.iml" filepath="$PROJECT_DIR$/floatwindowdemo/floatwindowdemo.iml" />
-      <module fileurl="file://$PROJECT_DIR$/goldensunday/goldensunday.iml" filepath="$PROJECT_DIR$/goldensunday/goldensunday.iml" />
-      <module fileurl="file://$PROJECT_DIR$/loadingdemo/loadingdemo.iml" filepath="$PROJECT_DIR$/loadingdemo/loadingdemo.iml" />
-      <module fileurl="file://$PROJECT_DIR$/mvpdemo/mvpdemo.iml" filepath="$PROJECT_DIR$/mvpdemo/mvpdemo.iml" />
-      <module fileurl="file://$PROJECT_DIR$/recyclerviewdemo/recyclerviewdemo.iml" filepath="$PROJECT_DIR$/recyclerviewdemo/recyclerviewdemo.iml" />
-      <module fileurl="file://$PROJECT_DIR$/scrolldemo/scrolldemo.iml" filepath="$PROJECT_DIR$/scrolldemo/scrolldemo.iml" />
-      <module fileurl="file://$PROJECT_DIR$/viewdemo/viewdemo.iml" filepath="$PROJECT_DIR$/viewdemo/viewdemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/messenger/messenger.iml" filepath="$PROJECT_DIR$/messenger/messenger.iml" />
     </modules>
   </component>
 </project>
